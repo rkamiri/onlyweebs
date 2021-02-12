@@ -10,7 +10,6 @@ export class RegisterComponent implements OnInit {
   constructor(private router: Router) {}
   ngOnInit(): void {
     console.log(navigator.language);
-    console.log(navigator.geolocation);
   }
   onSignin(): void {
     this.router.navigate(['choice']).then();
