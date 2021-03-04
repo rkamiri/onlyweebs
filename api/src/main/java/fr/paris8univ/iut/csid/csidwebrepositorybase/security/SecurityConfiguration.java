@@ -1,3 +1,4 @@
+/*
 package fr.paris8univ.iut.csid.csidwebrepositorybase.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -26,7 +27,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.headers().frameOptions().disable(); // for h2 console ( you don't need it )
+        http.headers().frameOptions().disable();
         http.csrf().disable().cors().disable();
         http.authorizeRequests().antMatchers("/signin").permitAll()
                 .anyRequest()
@@ -50,3 +51,4 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 }
+*/

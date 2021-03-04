@@ -1,3 +1,4 @@
+/*
 package fr.paris8univ.iut.csid.csidwebrepositorybase.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -36,4 +37,4 @@ public class CustomerAuthenticationFilter extends UsernamePasswordAuthentication
     protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) {
         SecurityContextHolder.getContext().setAuthentication(authResult);
     }
-}
+}*/
