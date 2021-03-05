@@ -11,7 +11,7 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
     console.log(navigator.language);
   }
-  onSignin(): void {
+  onLogin(): void {
     this.router.navigate(['choice']).then();
   }
 

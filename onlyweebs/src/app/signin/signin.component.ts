@@ -10,10 +10,10 @@ import {UserService} from '../user.service';
 })
 
 export class SigninComponent implements OnInit {
-    signinForm: FormGroup;
+    loginForm: FormGroup;
 
     constructor(private router: Router, private userService: UserService) {
-        this.signinForm = new FormGroup({
+        this.loginForm = new FormGroup({
             username: new FormControl(''),
             password: new FormControl('')
         });
@@ -22,13 +22,18 @@ export class SigninComponent implements OnInit {
     ngOnInit(): void { }
 
     onSubmit(): void {
-        console.warn(this.signinForm.value);
-        this.signInUser();
+        console.warn(this.loginForm.value);
+        this.loginUser();
     }
 
-    signInUser(): void {
-        this.userService.signin(this.signinForm.value);
-        console.warn('200 is good');
-        this.router.navigate(['account']).then();
+    loginUser(): void {
+        this.userService.login(this.loginForm.value).subscribe(
+            (returnedId) => {
+                return this.router.navigate(['anime/' + returnedId]);
+            } ,
+            (error) => {
+                return;
+            }
+        );
     }
 }

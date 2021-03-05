@@ -3,6 +3,7 @@ package fr.paris8univ.iut.csid.csidwebrepositorybase.core.controller;
 import fr.paris8univ.iut.csid.csidwebrepositorybase.core.entity.Anime;
 import fr.paris8univ.iut.csid.csidwebrepositorybase.core.service.AnimeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +22,7 @@ public class AnimeController {
         this.animeService = animeService;
     }
 
+    @CrossOrigin(origins = "http://localhost:4200/anime")
     @GetMapping
     public List<Anime> getRepositories() throws URISyntaxException {
         return this.animeService.getAnimes();

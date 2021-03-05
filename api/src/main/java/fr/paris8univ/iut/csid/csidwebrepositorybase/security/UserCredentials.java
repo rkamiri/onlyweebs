@@ -1,4 +1,3 @@
-/*
 package fr.paris8univ.iut.csid.csidwebrepositorybase.security;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -27,4 +26,4 @@ public class UserCredentials {
     public Authentication getAuthentication() {
         return new UsernamePasswordAuthenticationToken(username, password);
     }
-}*/
+}
