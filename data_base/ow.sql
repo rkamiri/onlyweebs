@@ -13,14 +13,21 @@ create table if not exists users
 (
     id       int auto_increment
         primary key,
-    username varchar(64)  not null,
-    password varchar(512) not null,
-    role     int          not null,
-    constraint users_password_uindex
-        unique (password),
+    username varchar(64)          not null,
+    password varchar(512)         not null,
+    enabled  tinyint(1) default 1 null,
     constraint users_username_uindex
         unique (username)
 );
+
+create table if not exists authorities
+(
+    username  varchar(50) not null,
+    authority varchar(50) not null,
+    constraint authorities_users_username_fk
+        foreign key (username) references users (username)
+);
+
 
 insert into anime values (default, '一つなぎ', 'One Piece',
                             'The story follows the adventures of Monkey D. Luffy,
@@ -28,3 +35,7 @@ insert into anime values (default, '一つなぎ', 'One Piece',
                             eating a Devil Fruit. With his crew of pirates, named the Straw Hat Pirates,
                             Luffy explores the Grand Line in search of the world''s ultimate treasure known
                             as "One Piece" in order to become the next King of the Pirates.', '/home/nlmz/Pictures/one_piece.jpg', 1);
+
+insert into users values (default, 'aziz', '$2y$12$yNOusS/wfuzFOg2lkj1H6e9sbD3ve57zSD7ouGDWBnA8UKc9bgiEO', 1);
+
+insert into authorities values ('aziz', 'root');
