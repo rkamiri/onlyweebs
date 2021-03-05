@@ -8,6 +8,7 @@ import {AnimeComponent} from './anime/anime.component';
 import {HelpComponent} from './help/help.component';
 import {ListsComponent} from './lists/lists.component';
 import {RegisterComponent} from './register/register.component';
+import { OneListComponent } from './one-list/one-list.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'help', component: HelpComponent},
   {path: 'choice', component: ChoiceComponent},
   {path: 'playback', component: PlaybackComponent},
-  {path: 'register', component: RegisterComponent}
+  {path: 'register', component: RegisterComponent},
+  {path: 'one-list', component: OneListComponent}
 ];
 
 @NgModule({

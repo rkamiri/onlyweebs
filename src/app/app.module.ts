@@ -14,6 +14,8 @@ import { ListsComponent } from './lists/lists.component';
 import { HelpComponent } from './help/help.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { OneListComponent } from './one-list/one-list.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,14 @@ import { RegisterComponent } from './register/register.component';
     ListsComponent,
     HelpComponent,
     FooterComponent,
-    RegisterComponent
+    RegisterComponent,
+    OneListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
