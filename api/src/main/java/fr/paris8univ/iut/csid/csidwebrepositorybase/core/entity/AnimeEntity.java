@@ -8,6 +8,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "anime")
 public class AnimeEntity {
+
     @Id
     @Column(name = "id", nullable = false, unique = true)
     private Long id;

@@ -1,1 +1,47 @@
-<div>{{ str[0].title }}</div>
+<div class="container" id="containerAnime">
+    <div class="row" id="imgDiv">
+        <div class="col-6">
+            <div class="row">
+                <div class="col">
+                    <h1>{{ anime.internationalTitle }}</h1>
+                </div>
+                <div class="col">
+                    <div id="addToListButton">
+                        <button id="imgAddToList">Add to list</button>
+                    </div>
+                    <div id="selectState">
+                        <label for="select">Select something</label>
+                        <select name="basicList" id="select">
+                            <option value="">selection</option>
+                            <option value="Watched">Watched</option>
+                            <option value="CurrentlyWatching">Currently Watching</option>
+                            <option value="PlanToWatch">Plan to watch</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p>Genre: genre1, genre2, genre3</p>
+                <p>tag: tag1, tag2, tag3</p>
+            </div>
+            <div class="row">
+                <h3>Synopsis</h3>
+                <p>{{ anime.synopsis }}</p>
+            </div>
+        </div>
+        <div class="col" id="divDetails">
+            <div class="row">
+                <h1 id="Details">Details</h1>
+                <p>Studio: StudioName</p>
+                <p>Producer: ProducerName</p>
+                <p>Release Date: jj/mm/yy</p>
+                <p>Japanese Name: {{ anime.title }}</p>
+            </div>
+            <div class="row">
+                <h2>Ranking : {{ anime.ranking }} </h2>
+                <h3>Rating : X/5 </h3>
+            </div>
+        </div>
+    </div>
+
+</div>

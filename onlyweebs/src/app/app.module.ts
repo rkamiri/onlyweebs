@@ -16,7 +16,9 @@ import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { AccountComponent } from './account/account.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
+import {HttpRequestInterceptor} from './HttpRequestInterceptor';
+
 
 @NgModule({
   declarations: [
@@ -41,7 +43,11 @@ import {HttpClientModule} from '@angular/common/http';
         FormsModule,
         HttpClientModule
     ],
-  providers: [],
+  providers: [
+      [
+          { provide: HTTP_INTERCEPTORS, useClass: HttpRequestInterceptor, multi: true }
+      ],
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
