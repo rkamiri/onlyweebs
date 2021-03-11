@@ -13,21 +13,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:onlyweebs" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f863d04c-9254-488b-9e86-36381a9b0b3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlyweebs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlyweebs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlyweebs/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlyweebs/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlyweebs/src/app/lists/lists.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/src/app/lists/lists.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlyweebs/src/app/one-list/one-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/src/app/one-list/one-list.component.html" afterDir="false" />
-    </list>
+    <list default="true" id="f863d04c-9254-488b-9e86-36381a9b0b3e" name="Default Changelist" comment="merge preprod" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,8 +116,16 @@
       <workItem from="1614939571564" duration="8068000" />
       <workItem from="1614959560679" duration="760000" />
       <workItem from="1615451746608" duration="12000" />
-      <workItem from="1615455343794" duration="1243000" />
+      <workItem from="1615455343794" duration="1714000" />
     </task>
+    <task id="LOCAL-00001" summary="merge preprod">
+      <created>1615456623003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615456623003</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +142,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge preprod" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge preprod" />
   </component>
   <component name="WindowStateProjectService">
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1614848505960">
@@ -168,6 +172,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="479" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615455851720" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615456629959">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615456629959" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612447429164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
