@@ -14,8 +14,14 @@ import { ListsComponent } from './lists/lists.component';
 import { HelpComponent } from './help/help.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
+<<<<<<< HEAD:onlyweebs/src/app/app.module.ts
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { OneListComponent } from './one-list/one-list.component';
+=======
+import { AccountComponent } from './account/account.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+>>>>>>> preprod:src/app/app.module.ts
 
 @NgModule({
   declarations: [
@@ -30,6 +36,7 @@ import { OneListComponent } from './one-list/one-list.component';
     HelpComponent,
     FooterComponent,
     RegisterComponent,
+<<<<<<< HEAD:onlyweebs/src/app/app.module.ts
     OneListComponent
   ],
   imports: [
@@ -37,7 +44,18 @@ import { OneListComponent } from './one-list/one-list.component';
     AppRoutingModule,
     NgbModule,
     IvyCarouselModule
+=======
+    AccountComponent
+>>>>>>> preprod:src/app/app.module.ts
   ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NgbModule,
+        ReactiveFormsModule,
+        FormsModule,
+        HttpClientModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
