@@ -8,14 +8,14 @@ import {AnimeComponent} from './anime/anime.component';
 import {HelpComponent} from './help/help.component';
 import {ListsComponent} from './lists/lists.component';
 import {RegisterComponent} from './register/register.component';
-import { OneListComponent } from './one-list/one-list.component';
+import {OneListComponent} from './one-list/one-list.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'anime', component: AnimeComponent},
   {path: 'lists', component: ListsComponent},
-  {path: 'signin', component: SigninComponent},
+  {path: 'login', component: SigninComponent},
   {path: 'help', component: HelpComponent},
   {path: 'choice', component: ChoiceComponent},
   {path: 'playback', component: PlaybackComponent},

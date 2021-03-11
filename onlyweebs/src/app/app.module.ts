@@ -45,6 +45,7 @@ import {HttpClientModule} from '@angular/common/http';
       NgbModule,
       ReactiveFormsModule,
       FormsModule,
+      HttpClientModule,
   ],
 
   providers: [],

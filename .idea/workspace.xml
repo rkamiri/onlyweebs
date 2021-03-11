@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f863d04c-9254-488b-9e86-36381a9b0b3e" name="Default Changelist" comment="merge preprod" />
+    <list default="true" id="f863d04c-9254-488b-9e86-36381a9b0b3e" name="Default Changelist" comment="merge preprod">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlyweebs/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlyweebs/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlyweebs/src/app/one-list/one-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/onlyweebs/src/app/one-list/one-list.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +121,7 @@
       <workItem from="1614939571564" duration="8068000" />
       <workItem from="1614959560679" duration="760000" />
       <workItem from="1615451746608" duration="12000" />
-      <workItem from="1615455343794" duration="1714000" />
+      <workItem from="1615455343794" duration="7673000" />
     </task>
     <task id="LOCAL-00001" summary="merge preprod">
       <created>1615456623003</created>
@@ -148,6 +153,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="merge preprod" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1615469292333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1615469292333" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1614848505960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -156,22 +165,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1613923814160" />
-    <state width="1259" height="479" key="GridCell.Tab.0.bottom" timestamp="1615455851720">
+    <state width="1259" height="138" key="GridCell.Tab.0.bottom" timestamp="1615469101310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="479" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615455851720" />
-    <state width="1259" height="479" key="GridCell.Tab.0.center" timestamp="1615455851720">
+    <state width="1259" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615469101310" />
+    <state width="1259" height="138" key="GridCell.Tab.0.center" timestamp="1615469101309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="479" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615455851720" />
-    <state width="1259" height="479" key="GridCell.Tab.0.left" timestamp="1615455851719">
+    <state width="1259" height="138" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615469101309" />
+    <state width="1259" height="138" key="GridCell.Tab.0.left" timestamp="1615469101309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="479" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615455851719" />
-    <state width="1259" height="479" key="GridCell.Tab.0.right" timestamp="1615455851720">
+    <state width="1259" height="138" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615469101309" />
+    <state width="1259" height="138" key="GridCell.Tab.0.right" timestamp="1615469101309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="479" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615455851720" />
+    <state width="1259" height="138" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615469101309" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615456629959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
