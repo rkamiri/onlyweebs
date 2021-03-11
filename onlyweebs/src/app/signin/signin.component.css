@@ -28,20 +28,8 @@
     padding: 0;
 }
 
-.acceptBtn {
-    width: 100%;
-    box-sizing: border-box;
-    background: #097CE7;
-    border: none;
-    color: #fff;
-    padding: 5px 0;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: 0.2s ease;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.btn-primary:hover {
+    background: #11428D;
 }
 
 form {

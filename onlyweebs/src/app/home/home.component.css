@@ -5,7 +5,9 @@
 }
 
 #myCarousel {
-    width: 59.40vw;
+    background-color:red;
+    min-width: 65vw;
+    max-width: 65vw;
     margin: auto;
     outline: none;
 }
@@ -19,7 +21,8 @@
 }
 
 .carousel-img {
-    width: 59.40vw;
+    max-width: 65vw;
+    min-width: 65vw;
     display: block;
     margin: auto;
 }
@@ -31,6 +34,8 @@
 }
 
 #market {
+    max-width: 65vw;
+    min-width: 65vw;
     color: white;
     background-color: rgba(40, 43, 48, .75);
 }

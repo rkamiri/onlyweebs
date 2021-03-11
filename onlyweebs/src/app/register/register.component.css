@@ -67,3 +67,7 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
     background-color: transparent;
 }
+
+.btn-primary:hover {
+    background: #11428D;
+}
