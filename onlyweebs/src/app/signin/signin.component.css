@@ -76,29 +76,34 @@ select:-webkit-autofill:focus {
     body{
         margin: -10px;
     }
+
     .container{
         margin: 0;
         padding: 0;
         background-color: rgba(40, 43, 48, .75);
     }
+
     .testA{
         background-color: rgba(0, 0, 0, 0);
         max-width: 100vw;
         min-height: 100vh;
         margin: auto;
     }
+
     .testB{
         border-right: 0px solid #A5A5A5;
         min-width: 48vw;
         margin: auto;
     }
+
     .test{
         margin-top:0;
     }
+
     .testB img {
-        width: 40vw;
-        margin-bottom: -5px;
+        width: 50vw;
         display: block;
         position: relative;
+        margin: auto;
     }
 }
