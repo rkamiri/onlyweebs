@@ -1,58 +1,50 @@
-#profile {
-    padding-top: 3vh;
+*{
+    color: white;
+}
+.account-settings .user-profile {
+    margin:auto;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+    margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+    width: 90px;
+    height: 90px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.account-settings .user-profile h5.user-name {
+    margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.account-settings .about {
+    margin: 1rem 0 0 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.card {
     background-color: rgba(40, 43, 48, .75);
-    color: #e3e3e3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
 }
-
-.profile-pic {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    position: relative;
-
-    & img {
-        border-radius: 50%;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    & a {
-        border-radius: 50%;
-        color: transparent;
-        transition: all .3s ease;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-
-        &:hover {
-            background-color: rgba(0, 0, 0, .5);
-            z-index: 10000;
-            color: rgba(250, 250, 250, 1);
-            transition: all .3s ease;
-        }
-
-        & span {
-            position: absolute;
-            display: inline-flex;
-            margin-top: 60px;
-            margin-left: 25px;
-            cursor: pointer;
-        }
-    }
-}
-
-#profile-right {
-}
-
-#profile-name {
-}
-
-#profile-text {
+.form-control {
+    background: transparent;
+    border: none;
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.15);
+    padding: 15px 0;
+    box-sizing: border-box;
+    color: #fff;
+    width: 100%;
+    transition: 0.2s ease;
+    margin-bottom: 2vh;
 }
