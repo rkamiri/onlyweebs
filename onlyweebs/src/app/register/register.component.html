@@ -4,35 +4,17 @@
         <div class="col-lg-2 col-md-1 col-sm-1 test">
             <h1>Create your account</h1>
             <form class="container" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-                <p>
-                    Username:
-                    <input class="owinput" type="text" formControlName="username" placeholder="UserName">
-                </p>
+                <input class="owinput" type="text" formControlName="username" placeholder="Username">
                 <br>
-                <p>
-                    Password:
-                    <input class="owinput" type="password" formControlName="password" placeholder="PassWord">
-                </p>
+                <input class="owinput" type="password" formControlName="password" placeholder="Password">
                 <br>
-                <p>
-                    First Name:
-                    <input class="owinput" type="text" formControlName="firstname" placeholder="First Name">
-                </p>
+                <input class="owinput" type="text" formControlName="firstname" placeholder="First Name">
                 <br>
-                <p>
-                    Last Name:
-                    <input class="owinput" type="text" formControlName="lastname" placeholder="Last Name">
-                </p>
+                <input class="owinput" type="text" formControlName="lastname" placeholder="Last Name">
                 <br>
-                <p>
-                    Email:
-                    <input class="owinput" type="text" formControlName="email" placeholder="Email">
-                </p>
+                <input class="owinput" type="email" formControlName="email" placeholder="Email">
                 <br>
-                <p>
-                    Gender:
-                    <input class="owinput" type="text" formControlName="gender" placeholder="Gender">
-                </p>
+                <input class="owinput" type="text" formControlName="gender" placeholder="Gender">
                 <br>
                 <button class="btn btn-primary btn-block" [disabled]="!registerForm.valid">Submit</button>
             </form>
