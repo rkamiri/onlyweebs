@@ -11,7 +11,7 @@ import {RegisterComponent} from './register/register.component';
 import {AccountComponent} from './account/account.component';
 import {AnimeResolver} from './anime/anime.resolver';
 import {AnimeListComponent} from './anime-list/anime-list.component';
-import {AnimeListResolver} from './anime-list/AnimeListResolver';
+import {AnimeListResolver} from './anime-list/anime.list.resolver';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
