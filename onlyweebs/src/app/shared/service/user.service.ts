@@ -1,25 +1,25 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
-
-interface ReturnedId {
-    createdId: string;
-}
+import {User} from '../model/user';
 
 @Injectable({
     providedIn: 'root'
 })
 export class UserService {
 
-    constructor(private httpclient: HttpClient) {}
+    constructor(private httpclient: HttpClient) {
+    }
 
-    login(value: object): Observable<any> {
-        console.log(value);
-        return this.httpclient.post('http://localhost:8080/login', value);
+    login(value: object): Observable<string> {
+        return this.httpclient.post<string>('http://localhost:8080/login', value);
     }
 
     register(value: object): Observable<any> {
-        console.log(value);
         return this.httpclient.post('http://localhost:8080/register', value);
+    }
+
+    getCurrentUser(): Observable<User> {
+        return this.httpclient.get<User>('http://localhost:8080/users/current');
     }
 }

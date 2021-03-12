@@ -43,8 +43,8 @@
                             <div class="user-avatar">
                                 <img src="https://cdn.pixabay.com/photo/2015/12/22/20/42/face-1104763_960_720.jpg" alt="Maxwell Admin">
                             </div>
-                            <h5 class="user-name">Yuki Hayashi</h5>
-                            <h6 class="user-email">yuki@Maxwell.com</h6>
+                            <h5 class="user-name">{{ currentUser.firstname}}</h5>
+                            <h6 class="user-email">{{ currentUser.email }}</h6>
                         </div>
                         <div class="about">
                             <h5 class="mb-2 text-primary">About</h5>
@@ -66,25 +66,25 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="form-group">
                                 <label for="fullName">Username</label>
-                                <input type="text" class="form-control" id="fullName" placeholder="Enter username">
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter username" value="{{ currentUser.username }}">
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="form-group">
                                 <label for="eMail">Email</label>
-                                <input type="email" class="form-control" id="eMail" placeholder="Enter email ID">
+                                <input type="email" class="form-control" id="eMail" placeholder="Enter email ID" value="{{ currentUser.email }}">
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="form-group">
                                 <label for="firstname">First Name</label>
-                                <input type="text" class="form-control" id="firstname" placeholder="Enter First Name">
+                                <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" value="{{ currentUser.firstname }}">
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="form-group">
                                 <label for="lastname">Last Name</label>
-                                <input type="url" class="form-control" id="lastname" placeholder="Enter Last Name">
+                                <input type="url" class="form-control" id="lastname" placeholder="Enter Last Name" value="{{ currentUser.lastname }}">
                             </div>
                         </div>
                     </div>
@@ -104,14 +104,14 @@
 
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="form-group">
-                                <textarea type="email" class="form-control" id="bio" placeholder="Type your bio"></textarea>
+                                <label for="bio"></label><textarea class="form-control" id="bio" placeholder="Type your bio"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row gutters">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="text-right">
-                                <button type="button" id="submit" name="submit" class="btn btn-primary">Update Bio</button>
+                                <button id="submit" name="submit" class="btn btn-primary">Update Bio</button>
                             </div>
                         </div>
                     </div>
