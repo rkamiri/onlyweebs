@@ -5,252 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f056c-05f2-4871-82cb-e6ae88a7ad68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_22_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-Github.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP1.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csid-web-repository-base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omegalul.yeet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/CsidWebRepositoryBaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/controller/AnimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/dao/AnimeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/dao/AuthDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/dao/UsersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/AnimeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/AuthEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/UsersEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/repository/AnimeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/repository/RegisterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/AnimeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/PasAnimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/RegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/security/CustomerAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/security/UserCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/allrepositories.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/paris8univ/iut/csid/csidwebrepositorybase/CsidWebRepositoryBaseApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/script.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/OnlyweebsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/User/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/User/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/User/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/User/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/User/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/security/CustomerAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/security/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/security/UserCredentials.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIow/src/test/java/iut/csid/demo/OnlyweebsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/admin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/AnimeList.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/account/account.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/account/account.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/account/account.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/account/account.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/anime/anime.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/anime/anime.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/anime/anime.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/anime/anime.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/choice/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/choice/choice.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/choice/choice.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/choice/choice.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/choice/choice.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/choice/list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/choice/play-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/footer/footer.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/footer/footer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/help/help.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/help/help.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/help/help.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/help/help.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/home/home.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/home/home.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/home/home.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/lists/lists.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/lists/lists.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/lists/lists.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/lists/lists.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/nav/bghome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/nav/loupe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/nav/nav.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/nav/nav.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/nav/nav.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/nav/nav.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/playback/playback.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/playback/playback.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/playback/playback.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/playback/playback.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/register/register.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/register/register.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/register/register.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/register/register.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/signin/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/signin/onlyWeebs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/signin/signin.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/signin/signin.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/signin/signin.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/signin/signin.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/signin/weebChan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/bghome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/web.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlyweebs/src/app/anime-list/anime-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlyweebs/src/app/anime-list/anime-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlyweebs/src/app/anime-list/anime-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlyweebs/src/app/anime-list/anime-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlyweebs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/src/app/nav/nav.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tpspring-master/CSID-web-repository-base-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -339,6 +105,7 @@
       <workItem from="1615448664077" duration="1206000" />
       <workItem from="1615452605500" duration="10207000" />
       <workItem from="1615471572186" duration="1386000" />
+      <workItem from="1615536929560" duration="1179000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {AnimeService} from './animeService';
 import {ActivatedRoute} from '@angular/router';
-import {Anime} from './Anime';
+import {Anime} from '../shared/model/Anime';
 
 @Component({
     selector: 'app-anime',
@@ -11,7 +10,7 @@ import {Anime} from './Anime';
 export class AnimeComponent implements OnInit {
     public anime: Anime;
 
-    constructor(private animeService: AnimeService, private route: ActivatedRoute) {
+    constructor(private route: ActivatedRoute) {
     }
 
     ngOnInit(): void {

@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
-import {Anime} from './Anime';
+import {Anime} from '../shared/model/Anime';
 
 interface ReturnedId {
     createdId: string;

@@ -10,10 +10,16 @@ import {ListsComponent} from './lists/lists.component';
 import {RegisterComponent} from './register/register.component';
 import {AccountComponent} from './account/account.component';
 import {AnimeResolver} from './anime/AnimeResolver';
+import {AnimeListComponent} from './anime-list/anime-list.component';
+import {AnimeListResolver} from './anime-list/AnimeListResolver';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'home', component: HomeComponent},
+    {path: 'animes', component: AnimeListComponent,
+        resolve: {
+            animeList: AnimeListResolver
+        }},
     {path: 'animes/:id',
         component: AnimeComponent,
         resolve: {

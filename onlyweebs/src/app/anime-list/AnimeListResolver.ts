@@ -1,15 +1,15 @@
 import {Injectable} from '@angular/core';
 import {ActivatedRouteSnapshot, Resolve, RouterStateSnapshot} from '@angular/router';
 import {Anime} from '../shared/model/Anime';
-import {AnimeService} from './animeService';
+import {AnimeService} from '../anime/animeService';
 import {Observable} from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
-export class AnimeResolver implements Resolve<Anime> {
+export class AnimeListResolver implements Resolve<Anime[]> {
     constructor(private service: AnimeService) {
     }
 
-    resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<Anime> | Promise<Anime> | Anime {
-        return this.service.getOneAnime(route.paramMap.get('id'));
+    resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<Anime[]> | Promise<Anime[]> | Anime[] {
+        return this.service.getAllAnime();
     }
 }
