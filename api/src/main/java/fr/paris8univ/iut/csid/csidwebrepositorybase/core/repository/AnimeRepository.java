@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Repository
@@ -22,6 +23,10 @@ public class AnimeRepository {
 
     public List<Anime> findAllAnime() {
         List<AnimeEntity> entities = this.animeDao.findAll();
-        return entities.stream().map(x -> new Anime(x.getId(), x.getTitle(), x.getInternational_title(), x.getSynopsis(), x.getCover(), x.getRanking())).collect(Collectors.toList());
+        return entities.stream().map(Anime::new).collect(Collectors.toList());
+    }
+
+    public Optional<Anime> findOneAnime(Long id) {
+        return this.animeDao.findById(id).map(Anime::new);
     }
 }

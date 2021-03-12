@@ -10,17 +10,24 @@ import {ListsComponent} from './lists/lists.component';
 import {RegisterComponent} from './register/register.component';
 import {OneListComponent} from './one-list/one-list.component';
 
+import {AccountComponent} from './account/account.component';
+import {AnimeResolver} from './anime/AnimeResolver';
+
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'home', component: HomeComponent},
-  {path: 'anime', component: AnimeComponent},
-  {path: 'lists', component: ListsComponent},
-  {path: 'login', component: SigninComponent},
-  {path: 'help', component: HelpComponent},
-  {path: 'choice', component: ChoiceComponent},
-  {path: 'playback', component: PlaybackComponent},
-  {path: 'register', component: RegisterComponent},
-  {path: 'one-list', component: OneListComponent}
+    {path: '', component: HomeComponent},
+    {path: 'home', component: HomeComponent},
+    {path: 'animes/:id',
+        component: AnimeComponent,
+        resolve: {
+            anime: AnimeResolver
+        }},
+    {path: 'lists', component: ListsComponent},
+    {path: 'login', component: SigninComponent},
+    {path: 'help', component: HelpComponent},
+    {path: 'choice', component: ChoiceComponent},
+    {path: 'playback', component: PlaybackComponent},
+    {path: 'register', component: RegisterComponent},
+    {path: 'account', component: AccountComponent}
 ];
 
 @NgModule({

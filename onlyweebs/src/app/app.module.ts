@@ -18,7 +18,9 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { OneListComponent } from './one-list/one-list.component';
 import { AccountComponent } from './account/account.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
+import {HttpRequestInterceptor} from './HttpRequestInterceptor';
+
 
 @NgModule({
   declarations: [

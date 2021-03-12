@@ -6,30 +6,17 @@
   margin-right: 25px;
 }
 
-#searchGroup {
+#searchBlock{
+    margin-top:1vh;
+    margin-right: 5vw;
 }
 
 #searchInput {
-  height: 2vw;
-  width: 20vw;
-  background-color: dimgrey;
-  color: white;
-  box-shadow: none !important;
-  border-color: dimgrey;
-}
-
-#searchButton {
-  background-color: #097ce7;
-  border: #097ce7;
-  height: 2vw;
-  color: white;
-  border-right-style: solid;
-}
-
-#searchButton:hover {
-  background-color: #11428D;
-  border: #11428D;
-  border-right-style: solid;
+    background-color: dimgrey;
+    color: white;
+    box-shadow: none !important;
+    border-color: dimgrey;
+    width: 25vw;
 }
 
 #imgLoop {
@@ -44,6 +31,23 @@
   opacity: 1;
 }
 
+#homeImage{
+    height: 6vh;
+}
+
+@media screen and (max-width: 576px) {
+    #imgLoop {
+        height: 4vw;
+    }
+    .btn-primary{
+        width: 13vw;
+    }
+
+    #searchBlock{
+        margin-top:0;
+        margin-right: 0;
+    }
+}
 
 
 

@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 import java.net.URISyntaxException;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class AnimeService {
@@ -18,5 +19,9 @@ public class AnimeService {
 
     public List<Anime> getAnimes() throws URISyntaxException {
         return this.animeRepository.findAllAnime();
+    }
+
+    public Anime getOneAnime(Long id) throws PasAnimeException {
+        return this.animeRepository.findOneAnime(id).orElseThrow(PasAnimeException::new);
     }
 }

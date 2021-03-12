@@ -17,10 +17,7 @@ public class CsidWebRepositoryBaseApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/anime").allowedOrigins("http://localhost:4200");
-                registry.addMapping("/login").allowedOrigins("http://localhost:4200");
-                registry.addMapping("/account").allowedOrigins("http://localhost:4200");
-                registry.addMapping("/login").allowedOrigins("http://localhost:8080");
+                registry.addMapping("/**");
             }
         };
     }

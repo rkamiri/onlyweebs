@@ -124,11 +124,20 @@
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/CsidWebRepositoryBaseApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/controller/AnimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/controller/RegisterController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/dao/AnimeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/dao/AuthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/dao/UsersDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/Anime.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/AnimeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/AuthEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/UsersEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/repository/AnimeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/repository/RegisterRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/AnimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/PasAnimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/RegisterService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/security/CustomerAuthenticationFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/security/SecurityConfiguration.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/security/UserCredentials.java" afterDir="false" />
@@ -155,6 +164,7 @@
       <change beforePath="$PROJECT_DIR$/../APIow/src/main/java/iut/csid/demo/security/UserCredentials.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../APIow/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../APIow/src/test/java/iut/csid/demo/OnlyweebsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/admin.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../onlyweebs/.browserslistrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../onlyweebs/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../onlyweebs/.gitignore" beforeDir="false" />
@@ -240,6 +250,7 @@
       <change beforePath="$PROJECT_DIR$/../onlyweebs/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../onlyweebs/tsconfig.spec.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../onlyweebs/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/web.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +285,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tpspring-master/CSID-web-repository-base-main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -283,6 +294,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.paris8univ.iut.csid.csidwebrepositorybase.core.service" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CsidWebRepositoryBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -318,7 +334,11 @@
       <workItem from="1614856877700" duration="603000" />
       <workItem from="1614865291638" duration="2670000" />
       <workItem from="1614931981244" duration="1528000" />
-      <workItem from="1614934096609" duration="411000" />
+      <workItem from="1614934096609" duration="5908000" />
+      <workItem from="1614949884861" duration="5127000" />
+      <workItem from="1615448664077" duration="1206000" />
+      <workItem from="1615452605500" duration="10207000" />
+      <workItem from="1615471572186" duration="1386000" />
     </task>
     <servers />
   </component>
@@ -336,6 +356,17 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.5.RELEASE/spring-security-core-5.3.5.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class</url>
+          <line>79</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
