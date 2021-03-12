@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {UserService} from '../user.service';
+import {AnimeService} from '../anime_service';
 
 @Component({
   selector: 'app-one-list',
@@ -16,9 +18,20 @@ export class OneListComponent implements OnInit {
   ];
   index: 1;
 
-  constructor() {}
+  str: object;
+
+  constructor(private animeService: AnimeService) {
+  }
 
   ngOnInit(): void {
+    this.getAllAnime();
+  }
+
+  getAllAnime(): void {
+    this.animeService.getAllAnime().subscribe(data => {
+      this.str = data;
+      console.log(data);
+    });
   }
 
 }
