@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f056c-05f2-4871-82cb-e6ae88a7ad68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/repository/NoUserFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/repository/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../onlyweebs/src/app/account/account.resolver.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/dao/UsersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/UsersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/entity/UsersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/account/account.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/src/app/account/account.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/anime/anime.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/src/app/anime/anime.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/shared/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/src/app/shared/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlyweebs/src/app/signin/signin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../onlyweebs/src/app/signin/signin.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
