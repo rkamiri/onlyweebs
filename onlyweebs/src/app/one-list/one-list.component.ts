@@ -16,7 +16,7 @@ export class OneListComponent implements OnInit {
     { name: 'Tokyo Ghoul', seen: '10', total : '10'},
     { name: 'SNK', seen: '2', total : '10'}
   ];
-  index: 1;
+  index : 1;
 
   str: object;
 
