@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {Anime} from '../shared/model/Anime';
+import {Anime} from '../shared/model/anime';
 
 @Component({
     selector: 'app-anime',

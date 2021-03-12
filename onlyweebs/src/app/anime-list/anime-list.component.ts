@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Anime} from '../shared/model/Anime';
+import {Anime} from '../shared/model/anime';
 import {ActivatedRoute} from '@angular/router';
 
 @Component({

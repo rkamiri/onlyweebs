@@ -9,7 +9,7 @@ import {HelpComponent} from './help/help.component';
 import {ListsComponent} from './lists/lists.component';
 import {RegisterComponent} from './register/register.component';
 import {AccountComponent} from './account/account.component';
-import {AnimeResolver} from './anime/AnimeResolver';
+import {AnimeResolver} from './anime/anime.resolver';
 import {AnimeListComponent} from './anime-list/anime-list.component';
 import {AnimeListResolver} from './anime-list/AnimeListResolver';
 
