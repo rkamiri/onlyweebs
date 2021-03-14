@@ -32,7 +32,7 @@
     border-radius: 0.3vw;
 }
 
-#select{
+/*#select{
     background: transparent;
     border: none;
     box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.15);
@@ -44,7 +44,7 @@
     height: 5vh;
     width: 6vw;
     font-size: 16px;
-}
+}*/
 
 option {
     background-color: rgba(40, 43, 48, 0.75);
@@ -91,10 +91,10 @@ h1{
         font-size: 3vw;
     }
 
-    #select{
+/*    #select{
         font-size: 3vw;
         width: 18vw;
-    }
+    }*/
 
     #animeTitle{
         margin-left: -4vw;
