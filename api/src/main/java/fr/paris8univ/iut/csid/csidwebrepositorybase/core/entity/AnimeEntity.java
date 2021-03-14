@@ -8,9 +8,10 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "anime")
 public class AnimeEntity {
+
     @Id
     @Column(name = "id", nullable = false, unique = true)
-    private int id;
+    private Long id;
 
     @Column(name = "title")
     private String title;
@@ -29,7 +30,7 @@ public class AnimeEntity {
 
     public AnimeEntity(){}
 
-    public AnimeEntity(int id, String title, String international_title, String synopsis, String cover, int ranking) {
+    public AnimeEntity(Long id, String title, String international_title, String synopsis, String cover, int ranking) {
         this.id = id;
         this.title = title;
         this.international_title = international_title;
@@ -38,11 +39,11 @@ public class AnimeEntity {
         this.ranking = ranking;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

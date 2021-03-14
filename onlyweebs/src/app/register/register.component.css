@@ -1,40 +1,42 @@
-#container {
+* {
+    outline-width: 0;
+    font-family: 'Karla', sans-serif !important;
 }
 
-#box {
-    max-width: 30vw;
-    padding: 15px;
-    margin: 0 auto;
-    border-radius: 0.3em;
+.testA{
     background-color: rgba(40, 43, 48, .75);
+    border-radius: 0.3em;
+    max-width: 40vw;
+    margin: auto;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    padding: 1vw;
 }
 
-label {
-    color: #e3e3e3;
+.test{
+    min-width: 36vw;
+    margin: auto;
 }
-
-#disclaimerPhone {
-    color: red;
-}
-
-#reqFields {
-    color: red;
-}
-
-#divGender {
-    text-align: center;
-
-}
-
-h2 {
-    font-size: 40px;
-    font-weight: 600;
+.test h1{
     color: white;
-    margin-top: 5%;
+    margin: auto;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    margin-bottom: 5vh;
 }
+.test p{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary:hover {
+    background: #11428D;
+}
+
+form {
+    text-align: center;
+}
+
 
 .owinput {
     background: transparent;
@@ -45,7 +47,11 @@ h2 {
     color: #fff;
     width: 100%;
     transition: 0.2s ease;
+    margin-bottom: 2vh;
+}
 
+.owinput::placeholder{
+    color: #e4e4e4;
 }
 
 .owinput:focus {
@@ -66,4 +72,21 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
     background-color: transparent;
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        margin: -10px;
+    }
+    h1{
+        padding-top: 2vh;;
+        font-size: 9.5vw;
+    }
+    .testA{
+        margin-left: -1.4vw;
+        min-width: 100vw;
+        margin-top:0;
+        margin-bottom: 0;
+        padding-bottom: 3vh;
+    }
 }

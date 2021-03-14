@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {AnimeService} from '../anime_service';
-import {Observable} from 'rxjs';
+import {ActivatedRoute} from '@angular/router';
+import {Anime} from '../shared/model/anime';
 
 @Component({
     selector: 'app-anime',
@@ -8,18 +8,12 @@ import {Observable} from 'rxjs';
     styleUrls: ['./anime.component.css']
 })
 export class AnimeComponent implements OnInit {
-    str: object;
+    public anime: Anime;
 
-    constructor(private animeService: AnimeService) {
+    constructor(private route: ActivatedRoute) {
     }
 
     ngOnInit(): void {
-        this.getAllAnime();
-    }
-
-    getAllAnime(): void {
-        this.animeService.getAllAnime().subscribe(data => {
-            this.str = data;
-        });
+        this.anime = this.route.snapshot.data.anime;
     }
 }

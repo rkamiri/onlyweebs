@@ -1,29 +1,27 @@
 package fr.paris8univ.iut.csid.csidwebrepositorybase.core.entity;
 
 public class Anime {
-    private int id;
+    private Long id;
     private String title;
-    private String international_title;
+    private String internationalTitle;
     private String synopsis;
     private String cover;
     private int ranking;
 
-    public Anime() {}
-
-    public Anime(int id, String title, String international_title, String synopsis, String cover, int ranking) {
-        this.id = id;
-        this.title = title;
-        this.international_title = international_title;
-        this.synopsis = synopsis;
-        this.cover = cover;
-        this.ranking = ranking;
+    public Anime(AnimeEntity animeEntity) {
+        this.id=animeEntity.getId();
+        this.title = animeEntity.getTitle();
+        this.internationalTitle = animeEntity.getInternational_title();
+        this.synopsis = animeEntity.getSynopsis();
+        this.cover = animeEntity.getCover();
+        this.ranking = animeEntity.getRanking();
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -35,12 +33,12 @@ public class Anime {
         this.title = title;
     }
 
-    public String getInternational_title() {
-        return international_title;
+    public String getInternationalTitle() {
+        return internationalTitle;
     }
 
-    public void setInternational_title(String international_title) {
-        this.international_title = international_title;
+    public void setInternationalTitle(String internationalTitle) {
+        this.internationalTitle = internationalTitle;
     }
 
     public String getSynopsis() {

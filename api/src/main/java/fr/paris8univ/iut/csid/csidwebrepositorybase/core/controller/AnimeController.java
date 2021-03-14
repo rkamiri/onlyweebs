@@ -2,17 +2,16 @@ package fr.paris8univ.iut.csid.csidwebrepositorybase.core.controller;
 
 import fr.paris8univ.iut.csid.csidwebrepositorybase.core.entity.Anime;
 import fr.paris8univ.iut.csid.csidwebrepositorybase.core.service.AnimeService;
+import fr.paris8univ.iut.csid.csidwebrepositorybase.core.service.PasAnimeException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.net.URISyntaxException;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/anime")
+@RequestMapping(value = "/animes")
 public class AnimeController {
 
     private final AnimeService animeService;
@@ -22,10 +21,13 @@ public class AnimeController {
         this.animeService = animeService;
     }
 
-    @CrossOrigin(origins = "http://localhost:4200/anime")
     @GetMapping
-    public List<Anime> getRepositories() throws URISyntaxException {
+    public List<Anime> getAnimes() throws URISyntaxException {
         return this.animeService.getAnimes();
     }
 
+    @GetMapping("/{id}")
+    public Anime getOneAnime(@PathVariable(value = "id", required = true) Long idAnime) throws PasAnimeException {
+        return this.animeService.getOneAnime(idAnime);
+    }
 }

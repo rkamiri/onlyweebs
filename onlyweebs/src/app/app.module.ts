@@ -16,7 +16,11 @@ import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { AccountComponent } from './account/account.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
+import {HttpRequestInterceptor} from './HttpRequestInterceptor';
+import { AnimeListComponent } from './anime-list/anime-list.component';
+import {SharedModule} from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +35,8 @@ import {HttpClientModule} from '@angular/common/http';
     HelpComponent,
     FooterComponent,
     RegisterComponent,
-    AccountComponent
+    AccountComponent,
+    AnimeListComponent
   ],
     imports: [
         BrowserModule,
@@ -39,9 +44,14 @@ import {HttpClientModule} from '@angular/common/http';
         NgbModule,
         ReactiveFormsModule,
         FormsModule,
-        HttpClientModule
+        HttpClientModule,
+        SharedModule
     ],
-  providers: [],
+  providers: [
+      [
+          { provide: HTTP_INTERCEPTORS, useClass: HttpRequestInterceptor, multi: true }
+      ],
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

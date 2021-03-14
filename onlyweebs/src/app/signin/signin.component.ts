@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
-import {FormControl, FormGroup, FormsModule} from '@angular/forms';
-import {UserService} from '../user.service';
+import {FormControl, FormGroup} from '@angular/forms';
+import {UserService} from '../shared/service/user.service';
 
 @Component({
     selector: 'app-signin',
@@ -28,10 +28,12 @@ export class SigninComponent implements OnInit {
 
     loginUser(): void {
         this.userService.login(this.loginForm.value).subscribe(
-            (returnedId) => {
-                return this.router.navigate(['anime/' + returnedId]);
+            () => {
+                console.log('je suis la');
+                return this.router.navigate(['animes/1']);
             } ,
             (error) => {
+                console.log('je suis pas la');
                 return;
             }
         );
