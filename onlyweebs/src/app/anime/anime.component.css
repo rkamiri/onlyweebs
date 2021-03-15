@@ -2,12 +2,15 @@
     color: white;
     background-color: rgba(40, 43, 48, .75);
     border-radius: 0.3em;
-
+}
+#cover{
+    width: 13vw;
+    height: 20vh;
+    border-radius: 0.3em;
+    margin-top: 2.5vh;
 }
 
-
 #center{
-    margin: auto;
     margin-right: 0.6vw;
 }
 
@@ -25,11 +28,9 @@
     color: white;
 }
 
-#imgAddToList {
-    width: 4vw;
-    margin-left: 2vw;
-    margin-top: 0.5vw;
-    border-radius: 0.3vw;
+#addToList {
+    height: 4vh;
+
 }
 
 /*#select{
@@ -45,6 +46,11 @@
     width: 6vw;
     font-size: 16px;
 }*/
+
+#optionSelect{
+    width: 10vw;
+    height: 4vh;
+}
 
 option {
     background-color: rgba(40, 43, 48, 0.75);
@@ -86,15 +92,18 @@ h1{
         font-size: 4vw;
     }
 
-    #imgAddToList{
+    #addToList{
         width: 14vw;
         font-size: 3vw;
     }
 
-/*    #select{
+    #select{
         font-size: 3vw;
-        width: 18vw;
-    }*/
+    }
+
+    #optionSelect{
+        width: 20vw;
+    }
 
     #animeTitle{
         margin-left: -4vw;
@@ -123,7 +132,7 @@ h1{
         font-size: 0.8vw;
     }
 
-    #imgAddToList{
+    #addToList{
         width: 5vw;
         font-size: 1vw;
     }

@@ -3,5 +3,6 @@ export interface Anime {
     title: string;
     internationalTitle: string;
     synopsis: string;
+    cover: string;
     ranking: number;
 }
