@@ -3,10 +3,6 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Anime} from '../shared/model/anime';
 
-interface ReturnedId {
-    createdId: string;
-}
-
 @Injectable({
     providedIn: 'root'
 })

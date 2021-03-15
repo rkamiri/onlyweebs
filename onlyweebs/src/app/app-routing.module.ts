@@ -12,26 +12,36 @@ import {AccountComponent} from './account/account.component';
 import {AnimeResolver} from './anime/anime.resolver';
 import {AnimeListComponent} from './anime-list/anime-list.component';
 import {AnimeListResolver} from './anime-list/anime.list.resolver';
+import {AccountResolver} from './account/account.resolver';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'home', component: HomeComponent},
-    {path: 'animes', component: AnimeListComponent,
+    {
+        path: 'animes', component: AnimeListComponent,
         resolve: {
             animeList: AnimeListResolver
-        }},
-    {path: 'animes/:id',
+        }
+    },
+    {
+        path: 'animes/:id',
         component: AnimeComponent,
         resolve: {
             anime: AnimeResolver
-        }},
+        }
+    },
     {path: 'lists', component: ListsComponent},
     {path: 'login', component: SigninComponent},
     {path: 'help', component: HelpComponent},
     {path: 'choice', component: ChoiceComponent},
     {path: 'playback', component: PlaybackComponent},
     {path: 'register', component: RegisterComponent},
-    {path: 'account', component: AccountComponent}
+    {
+        path: 'account', component: AccountComponent,
+        resolve: {
+            currentUser: AccountResolver
+        }
+    }
 ];
 
 @NgModule({
