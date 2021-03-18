@@ -15,11 +15,11 @@ import { HelpComponent } from './help/help.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
-import { OneListComponent } from './one-list/one-list.component';
 import { AccountComponent } from './account/account.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 import {HttpRequestInterceptor} from './HttpRequestInterceptor';
+import { OnelistComponent } from './onelist/onelist.component';
 
 
 @NgModule({
@@ -35,7 +35,8 @@ import {HttpRequestInterceptor} from './HttpRequestInterceptor';
     HelpComponent,
     FooterComponent,
     RegisterComponent,
-    OneListComponent
+    OnelistComponent,
+    OnelistComponent
   ],
   imports: [
     BrowserModule,
