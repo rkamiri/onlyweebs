@@ -58,7 +58,6 @@ export class AccountComponent implements OnInit {
 
         this.passwordForm.controls.id.setValue( this.currentUser.id);
         this.newPassWordUser = this.currentUser;
-        //this.passwordForm.controls.oldPassword.setValue( this.currentUser.password);
 
     }
 
