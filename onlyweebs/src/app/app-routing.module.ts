@@ -13,6 +13,7 @@ import {AnimeResolver} from './anime/anime.resolver';
 import {AnimeListComponent} from './anime-list/anime-list.component';
 import {AnimeListResolver} from './anime-list/anime.list.resolver';
 import {AccountResolver} from './account/account.resolver';
+import {ListsResolver} from './lists/lists.resolver';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -30,7 +31,12 @@ const routes: Routes = [
             anime: AnimeResolver
         }
     },
-    {path: 'lists', component: ListsComponent},
+    {
+        path: 'lists', component: ListsComponent,
+        resolve: {
+            allLists: ListsResolver
+        }
+    },
     {path: 'login', component: SigninComponent},
     {path: 'help', component: HelpComponent},
     {path: 'choice', component: ChoiceComponent},
