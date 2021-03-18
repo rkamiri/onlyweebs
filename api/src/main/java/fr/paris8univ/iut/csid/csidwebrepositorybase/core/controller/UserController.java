@@ -39,7 +39,7 @@ public class UserController {
     }
 
     @PutMapping("/update")
-    public Users updateCurrentUser(@PathVariable(value = "id", required = true) Long idUser, @RequestBody Users updatedUser) throws NoUserFoundException {
+    public Users updateCurrentUser(@RequestBody Users updatedUser) throws NoUserFoundException {
         this.usersService.updateCurrentUser(updatedUser);
         return null;
     }
