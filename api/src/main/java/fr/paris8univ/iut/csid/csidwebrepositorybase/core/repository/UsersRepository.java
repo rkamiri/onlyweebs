@@ -56,7 +56,6 @@ public class UsersRepository {
             this.usersDao.save(current);
         }
         if(updatedUser.getBio()!=null || !Objects.equals(updatedUser.getBio(), current.getBio())){
-            System.out.println(updatedUser.getBio());
             current.setBio(updatedUser.getBio());
             this.usersDao.save(current);
         }
