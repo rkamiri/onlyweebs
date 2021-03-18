@@ -65,6 +65,7 @@ export class AccountComponent implements OnInit {
         this.userService.updateCurrentUser(this.personalInfoForm.value).subscribe(
             (data) => {
                 if (data.username !== this.currentUser.username){
+                    this.userService.logout();
                     return this.router.navigate(['login']);
                 }
                 location.reload();
@@ -80,7 +81,6 @@ export class AccountComponent implements OnInit {
         this.userService.updateCurrentUser(this.bioForm.value).subscribe(
             (data) => {
                 location.reload();
-
             },
             (error) => {
                 console.log(error);
@@ -94,6 +94,7 @@ export class AccountComponent implements OnInit {
             this.currentUser.password = this.passwordForm.get('newPasswordA').value;
             this.userService.updateCurrentUser(this.newPassWordUser).subscribe(
                 (data) => {
+                    this.userService.logout();
                     return this.router.navigate(['login']);
                 },
                 (error) => {

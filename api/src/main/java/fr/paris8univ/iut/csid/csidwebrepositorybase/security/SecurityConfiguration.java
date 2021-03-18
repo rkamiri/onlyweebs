@@ -16,6 +16,8 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 import java.util.Collections;
 import java.util.List;
@@ -36,11 +38,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.headers().frameOptions().disable();
         http.csrf().disable();
         http.cors().configurationSource(corsConfigurationSource());
-        http.authorizeRequests().antMatchers("/login", "/register", "/animes", "/animes/*").permitAll()
+        http.authorizeRequests().antMatchers("/login", "/logout", "/register", "/animes", "/animes/*").permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()
-                .logout().permitAll()
+                .logout().permitAll().invalidateHttpSession(true).deleteCookies("JSESSIONID").logoutSuccessHandler((httpServletRequest, httpServletResponse, authentication) -> {
+                    httpServletResponse.setStatus(HttpServletResponse.SC_OK);
+                })
                 .and()
                 .addFilter(new CustomerAuthenticationFilter(authenticationManager(), objectMapper))
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED);

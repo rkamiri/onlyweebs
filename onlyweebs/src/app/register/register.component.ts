@@ -33,13 +33,10 @@ export class RegisterComponent implements OnInit {
     registerUser(): void {
         this.userService.register(this.registerForm.value).subscribe(
             () => {
-                console.log(this.registerForm.value);
-                console.log('je veut etre la');
                 return this.router.navigate(['lists']);
             } ,
             (error) => {
-                console.log(this.registerForm.value);
-                console.log('je veut pas etre la');
+                error.log(error);
                 return;
             }
         );

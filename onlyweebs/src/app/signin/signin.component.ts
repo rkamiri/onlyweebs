@@ -32,6 +32,7 @@ export class SigninComponent implements OnInit {
     loginUser(): void {
         this.userService.login(this.loginForm.value).subscribe(
             () => {
+                this.userService.emitAuthStatus(true);
                 return this.router.navigate(['account']);
             },
             (error) => {

@@ -15,3 +15,8 @@ footer {
     height: 200px;
     margin-top: -200px;
 }
+
+i {
+    color: white;
+    background-color: white;
+}
