@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {FormControl, FormGroup} from '@angular/forms';
-import {UserService} from '../register/user.service';
+import {UserService} from '../shared/service/user.service';
+import {Subscription} from 'rxjs';
 
 @Component({
     selector: 'app-signin',
@@ -11,6 +12,7 @@ import {UserService} from '../register/user.service';
 
 export class SigninComponent implements OnInit {
     loginForm: FormGroup;
+    id: Subscription;
 
     constructor(private router: Router, private userService: UserService) {
         this.loginForm = new FormGroup({
@@ -19,7 +21,8 @@ export class SigninComponent implements OnInit {
         });
     }
 
-    ngOnInit(): void { }
+    ngOnInit(): void {
+    }
 
     onSubmit(): void {
         console.warn(this.loginForm.value);
@@ -29,12 +32,10 @@ export class SigninComponent implements OnInit {
     loginUser(): void {
         this.userService.login(this.loginForm.value).subscribe(
             () => {
-                console.log('je suis la');
-                return this.router.navigate(['animes/1']);
-            } ,
+                return this.router.navigate(['account']);
+            },
             (error) => {
-                console.log('je suis pas la');
-                return;
+                return error;
             }
         );
     }

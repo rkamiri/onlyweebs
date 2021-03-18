@@ -22,7 +22,6 @@
     margin: auto;
     text-align: center;
     margin-bottom: 5vh;
-    text-decoration: underline;
 }
 .test p{
     color: white;
@@ -49,6 +48,10 @@ form {
     width: 100%;
     transition: 0.2s ease;
     margin-bottom: 2vh;
+}
+
+.owinput::placeholder{
+    color: #e4e4e4;
 }
 
 .owinput:focus {

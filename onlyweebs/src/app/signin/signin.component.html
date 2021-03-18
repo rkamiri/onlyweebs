@@ -10,13 +10,10 @@
                          alt="alt"/>
             </div>
             <div class="col-lg-2 col-md-1 col-sm-1 test">
+                <h1>Login to OnlyWeebs</h1>
                 <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-                    <p>Username</p>
                     <input owinput class="owinput" type="text" formControlName="username" placeholder="Username">
-
-                    <p>Password</p>
                     <input owinput class="owinput" type="password" formControlName="password" placeholder="Password">
-
                     <button class="btn btn-primary btn-block" [disabled]="!loginForm.valid">Submit</button>
                 </form>
             </div>

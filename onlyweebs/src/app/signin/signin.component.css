@@ -22,6 +22,14 @@
     min-width: 20vw;
     margin: auto;
 }
+
+.test h1{
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
 .test p{
     color: white;
     margin: 0;
@@ -58,6 +66,10 @@ form {
 
 .owinput:-webkit-autofill {
     background: transparent;
+}
+
+.owinput::placeholder{
+    color: #e4e4e4;
 }
 
 .owinput:-webkit-autofill,

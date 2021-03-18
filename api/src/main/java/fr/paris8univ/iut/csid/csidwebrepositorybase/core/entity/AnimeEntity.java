@@ -1,15 +1,13 @@
 package fr.paris8univ.iut.csid.csidwebrepositorybase.core.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "anime")
 public class AnimeEntity {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false, unique = true)
     private Long id;
 
@@ -30,8 +28,7 @@ public class AnimeEntity {
 
     public AnimeEntity(){}
 
-    public AnimeEntity(Long id, String title, String international_title, String synopsis, String cover, int ranking) {
-        this.id = id;
+    public AnimeEntity(String title, String international_title, String synopsis, String cover, int ranking) {
         this.title = title;
         this.international_title = international_title;
         this.synopsis = synopsis;

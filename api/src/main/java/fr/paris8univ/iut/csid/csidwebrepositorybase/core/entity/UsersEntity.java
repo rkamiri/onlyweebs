@@ -40,6 +40,10 @@ public class UsersEntity {
         this.gender = gender;
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getUsername() {
         return username;
     }
