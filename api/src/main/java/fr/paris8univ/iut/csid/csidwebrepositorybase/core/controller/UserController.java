@@ -7,9 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/users")
@@ -38,5 +36,11 @@ public class UserController {
                 login = (String) authentication.getPrincipal();
         System.out.println(login);
         return login;
+    }
+
+    @PutMapping("/update")
+    public Users updateCurrentUser(@PathVariable(value = "id", required = true) Long idUser, @RequestBody Users updatedUser) throws NoUserFoundException {
+        this.usersService.updateCurrentUser(updatedUser);
+        return null;
     }
 }

@@ -17,4 +17,8 @@ public class UsersService {
     public Users findOneByLogin(String currentUserLogin) throws NoUserFoundException {
         return this.ur.findByUsername(currentUserLogin);
     }
+
+    public void updateCurrentUser(Users updatedUser) {
+        this.ur.updateCurrentUser(updatedUser);
+    }
 }

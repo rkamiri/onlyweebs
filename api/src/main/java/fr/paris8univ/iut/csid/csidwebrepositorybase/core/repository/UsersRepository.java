@@ -17,4 +17,8 @@ public class UsersRepository {
     public Users findByUsername(String username) throws NoUserFoundException {
         return new Users(this.usersDao.findByUsername(username).orElseThrow(NoUserFoundException::new));
     }
+
+    public void updateCurrentUser(Users updatedUser) {
+
+    }
 }
