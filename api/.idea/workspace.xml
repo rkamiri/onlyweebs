@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="339f056c-05f2-4871-82cb-e6ae88a7ad68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/repository/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/paris8univ/iut/csid/csidwebrepositorybase/core/service/UsersService.java" afterDir="false" />
-    </list>
+    <list default="true" id="339f056c-05f2-4871-82cb-e6ae88a7ad68" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +110,7 @@
       <workItem from="1615803542477" duration="2000" />
       <workItem from="1615982564978" duration="638000" />
       <workItem from="1616058750214" duration="1362000" />
-      <workItem from="1616060869209" duration="7071000" />
+      <workItem from="1616060869209" duration="7666000" />
     </task>
     <servers />
   </component>
