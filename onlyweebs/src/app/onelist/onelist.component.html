@@ -16,8 +16,13 @@
             <td id="{{i+1}}">{{i+1}}</td>
             <td>{{l.name}}</td>
             <td>{{l.seen}}/{{l.total}}
-                <button id="removeView" class="btn btn-xs btn-secondary">-</button>
-                <button id="addView" class="btn btn-xs btn-secondary">+</button></td>
+                <button (click)="l.seen=+l.seen-1" id="removeView" class="btn btn-xs btn-secondary">
+                    -
+                </button>
+                <button (click)="l.seen=+l.seen+1" id="addView" class="btn btn-xs btn-secondary">
+                    +
+                </button>
+            </td>
 
             <td><button id="removeAnime" class="btn btn-xs btn-danger">X</button></td>
         </tr>

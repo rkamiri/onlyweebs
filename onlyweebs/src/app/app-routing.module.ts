@@ -9,9 +9,9 @@ import {HelpComponent} from './help/help.component';
 import {ListsComponent} from './lists/lists.component';
 import {RegisterComponent} from './register/register.component';
 import {OnelistComponent} from './onelist/onelist.component';
-
 import {AccountComponent} from './account/account.component';
 import {AnimeResolver} from './anime/AnimeResolver';
+import {CreateListComponent} from './create-list/create-list.component';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -28,7 +28,8 @@ const routes: Routes = [
     {path: 'playback', component: PlaybackComponent},
     {path: 'register', component: RegisterComponent},
     {path: 'account', component: AccountComponent},
-    {path: 'onelist', component: OnelistComponent}
+    {path: 'onelist', component: OnelistComponent},
+    {path: 'create-list', component: CreateListComponent}
 ];
 
 @NgModule({

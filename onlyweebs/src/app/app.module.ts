@@ -20,6 +20,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 import {HttpRequestInterceptor} from './HttpRequestInterceptor';
 import { OnelistComponent } from './onelist/onelist.component';
+import { CreateListComponent } from './create-list/create-list.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { OnelistComponent } from './onelist/onelist.component';
     FooterComponent,
     RegisterComponent,
     OnelistComponent,
-    OnelistComponent
+    OnelistComponent,
+    CreateListComponent
   ],
   imports: [
     BrowserModule,

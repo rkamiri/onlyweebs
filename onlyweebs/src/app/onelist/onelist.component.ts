@@ -18,7 +18,6 @@ export class OnelistComponent implements OnInit {
   ];
   index: 1;
   closeResult = '';
-
   str: object;
 
   constructor(private modalService: NgbModal) {
