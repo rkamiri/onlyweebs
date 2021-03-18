@@ -28,7 +28,7 @@ public class UsersRepository {
         return new Users(this.usersDao.findByUsername(username).orElseThrow(NoUserFoundException::new));
     }
 
-    public void updateCurrentUser(Users updatedUser) throws NoUserFoundException {
+    public Users updateCurrentUser(Users updatedUser) throws NoUserFoundException {
         UsersEntity current = this.usersDao.findById(updatedUser.getId()).orElseThrow(NoUserFoundException::new);
 
         if(updatedUser.getUsername()!=null || !Objects.equals(updatedUser.getUsername(), current.getUsername())){
@@ -52,5 +52,6 @@ public class UsersRepository {
             current.setPassword(this.bCryptPasswordEncoder.encode(updatedUser.getPassword()));
         }
         this.usersDao.save(current);
+        return new Users(this.usersDao.findById(updatedUser.getId()).orElseThrow(NoUserFoundException::new));
     }
 }

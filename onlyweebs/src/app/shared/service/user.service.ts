@@ -22,4 +22,8 @@ export class UserService {
     getCurrentUser(): Observable<User> {
         return this.httpclient.get<User>('http://localhost:8080/users/current');
     }
+
+    updateCurrentUser(value: object): Observable<User> {
+        return this.httpclient.put<User>('http://localhost:8080/users/update', value);
+    }
 }

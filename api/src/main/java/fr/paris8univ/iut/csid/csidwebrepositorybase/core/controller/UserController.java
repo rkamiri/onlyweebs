@@ -40,7 +40,7 @@ public class UserController {
 
     @PutMapping("/update")
     public Users updateCurrentUser(@RequestBody Users updatedUser) throws NoUserFoundException {
-        this.usersService.updateCurrentUser(updatedUser);
-        return null;
+        System.out.println("here");
+        return this.usersService.updateCurrentUser(updatedUser);
     }
 }
