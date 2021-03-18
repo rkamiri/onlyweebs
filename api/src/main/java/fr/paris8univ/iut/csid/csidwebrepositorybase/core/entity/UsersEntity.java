@@ -40,16 +40,6 @@ public class UsersEntity {
         this.gender = gender;
     }
 
-    public UsersEntity(Long id, String username, String password, String firstname, String lastname, String email , String gender) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.email = email;
-        this.gender = gender;
-    }
-
     public Long getId() {
         return id;
     }

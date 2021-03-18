@@ -12,12 +12,17 @@ public class Users {
     public Users() {}
 
     public Users(UsersEntity usersEntity) {
+        this.id=usersEntity.getId();
         this.username = usersEntity.getUsername();
         this.password = usersEntity.getPassword();
         this.firstname = usersEntity.getFirstname();
         this.lastname = usersEntity.getLastname();
-        this.email = usersEntity.getLastname();
+        this.email = usersEntity.getEmail();
         this.gender = usersEntity.getGender();
+    }
+
+    public Long getId() {
+        return id;
     }
 
     public String getUsername() {
