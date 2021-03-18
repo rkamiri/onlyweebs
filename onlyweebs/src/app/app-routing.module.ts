@@ -10,7 +10,7 @@ import {ListsComponent} from './lists/lists.component';
 import {RegisterComponent} from './register/register.component';
 import {OnelistComponent} from './onelist/onelist.component';
 import {AccountComponent} from './account/account.component';
-import {AnimeResolver} from './anime/AnimeResolver';
+import {AnimeResolver} from './anime/anime.resolver';
 import {CreateListComponent} from './create-list/create-list.component';
 
 const routes: Routes = [

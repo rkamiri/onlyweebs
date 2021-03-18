@@ -38,7 +38,8 @@ import { CreateListComponent } from './create-list/create-list.component';
     RegisterComponent,
     OnelistComponent,
     OnelistComponent,
-    CreateListComponent
+    CreateListComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
