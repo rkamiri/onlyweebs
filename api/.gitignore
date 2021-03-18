@@ -24,5 +24,7 @@ hs_err_pid*
 
 /target
 /src/main/resources/application.properties
+/.idea/
 /.idea/workspace.xml
+/target/
 /target/classes/application.properties
