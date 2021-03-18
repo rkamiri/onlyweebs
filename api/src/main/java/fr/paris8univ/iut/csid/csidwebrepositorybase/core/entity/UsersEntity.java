@@ -29,15 +29,19 @@ public class UsersEntity {
     @Column(name = "gender")
     private String gender;
 
+    @Column(name = "bio")
+    private String bio;
+
     public UsersEntity() {}
 
-    public UsersEntity(String username, String password, String firstname, String lastname, String email , String gender) {
+    public UsersEntity(String username, String password, String firstname, String lastname, String email , String gender, String bio) {
         this.username = username;
         this.password = password;
         this.firstname = firstname;
         this.lastname = lastname;
         this.email = email;
         this.gender = gender;
+        this.bio = bio;
     }
 
     public Long getId() {
@@ -91,4 +95,10 @@ public class UsersEntity {
     public void setGender(String gender) {
         this.gender = gender;
     }
+
+    public String getBio() {
+        return this.bio;
+    }
+
+    public void setBio(String bio) { this.bio = bio; }
 }

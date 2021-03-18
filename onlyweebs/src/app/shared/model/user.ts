@@ -6,4 +6,5 @@ export interface User {
     lastname: string;
     email: string;
     gender: string;
+    bio: string;
 }

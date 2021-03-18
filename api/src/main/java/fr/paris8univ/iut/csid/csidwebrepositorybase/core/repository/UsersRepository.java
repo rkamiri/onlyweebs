@@ -41,17 +41,26 @@ public class UsersRepository {
         }
         if(updatedUser.getEmail()!=null || !Objects.equals(updatedUser.getEmail(), current.getEmail())) {
             current.setEmail(updatedUser.getEmail());
+            this.usersDao.save(current);
         }
         if(updatedUser.getFirstname()!=null || !Objects.equals(updatedUser.getFirstname(), current.getFirstname())) {
             current.setFirstname(updatedUser.getFirstname());
+            this.usersDao.save(current);
         }
         if(updatedUser.getLastname()!=null || !Objects.equals(updatedUser.getLastname(), current.getLastname())) {
             current.setLastname(updatedUser.getLastname());
+            this.usersDao.save(current);
         }
         if(updatedUser.getPassword()!=null) {
             current.setPassword(this.bCryptPasswordEncoder.encode(updatedUser.getPassword()));
+            this.usersDao.save(current);
         }
-        this.usersDao.save(current);
+        if(updatedUser.getBio()!=null || !Objects.equals(updatedUser.getBio(), current.getBio())){
+            System.out.println(updatedUser.getBio());
+            current.setBio(updatedUser.getBio());
+            this.usersDao.save(current);
+        }
+
         return new Users(this.usersDao.findById(updatedUser.getId()).orElseThrow(NoUserFoundException::new));
     }
 }

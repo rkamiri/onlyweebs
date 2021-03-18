@@ -8,6 +8,7 @@ public class Users {
     private String lastname;
     private String email;
     private String gender;
+    private String bio;
 
     public Users() {}
 
@@ -19,6 +20,7 @@ public class Users {
         this.lastname = usersEntity.getLastname();
         this.email = usersEntity.getEmail();
         this.gender = usersEntity.getGender();
+        this.bio = usersEntity.getBio();
     }
 
     public Long getId() {
@@ -47,5 +49,9 @@ public class Users {
 
     public String getGender() {
         return gender;
+    }
+
+    public String getBio() {
+        return bio;
     }
 }

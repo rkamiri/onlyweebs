@@ -31,7 +31,8 @@ public class RegisterRepository {
                         user.getFirstname(),
                         user.getLastname(),
                         user.getEmail(),
-                        user.getGender()
+                        user.getGender(),
+                        "No bio yet."
                 )
         );
         this.authDao.save(new AuthEntity(user.getUsername(), "root"));

@@ -64,6 +64,7 @@
                     </form>
                 </div>
                 <div class="card-body">
+                    <form [formGroup]="bioForm" (ngSubmit)="updateBio()">
                     <div class="row gutters">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <h6 class="mb-3 text-primary">Update Bio</h6>
@@ -71,7 +72,7 @@
 
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div class="form-group">
-                                <label for="bio"></label><textarea class="form-control" id="bio" placeholder="Type your bio"></textarea>
+                                <label for="bio"></label><textarea class="form-control" id="bio" formControlName="bio" ></textarea>
                             </div>
                         </div>
                     </div>
@@ -82,6 +83,7 @@
                             </div>
                         </div>
                     </div>
+                    </form>
                 </div>
                 <div class="card-body">
                     <div class="row gutters">

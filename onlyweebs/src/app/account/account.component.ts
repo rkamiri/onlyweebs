@@ -13,10 +13,19 @@ import {UserService} from '../shared/service/user.service';
 export class AccountComponent implements OnInit {
     public currentUser: User;
     personalInfoForm: FormGroup;
+    bioForm: FormGroup;
 
     constructor(private route: ActivatedRoute, private router: Router,  private userService: UserService) {
         this.personalInfoForm = new FormGroup({
             id: new FormControl(''),
+            username: new FormControl(''),
+            firstname: new FormControl(''),
+            lastname: new FormControl(''),
+            email: new FormControl('')
+        });
+        this.bioForm = new FormGroup({
+            id: new FormControl(''),
+            bio: new FormControl(''),
             username: new FormControl(''),
             firstname: new FormControl(''),
             lastname: new FormControl(''),
@@ -31,6 +40,12 @@ export class AccountComponent implements OnInit {
         this.personalInfoForm.controls['firstname'].setValue( this.currentUser.firstname);
         this.personalInfoForm.controls['lastname'].setValue( this.currentUser.lastname);
         this.personalInfoForm.controls['email'].setValue( this.currentUser.email);
+        this.bioForm.controls['id'].setValue( this.currentUser.id);
+        this.bioForm.controls['bio'].setValue( this.currentUser.bio);
+        this.bioForm.controls['username'].setValue( this.currentUser.username);
+        this.bioForm.controls['firstname'].setValue( this.currentUser.firstname);
+        this.bioForm.controls['lastname'].setValue( this.currentUser.lastname);
+        this.bioForm.controls['email'].setValue( this.currentUser.email);
     }
 
     updatePersonalInfos(): void {
@@ -39,7 +54,18 @@ export class AccountComponent implements OnInit {
                 if (data.username !== this.currentUser.username){
                     return this.router.navigate(['login']);
                 }
-                //return this.router.navigate(['account']);
+                location.reload();
+
+            },
+            (error) => {
+                console.log(error);
+            }
+        );
+    }
+
+    updateBio(): void {
+        this.userService.updateCurrentUser(this.bioForm.value).subscribe(
+            (data) => {
                 location.reload();
 
             },
