@@ -11,7 +11,6 @@ export class UserService {
     constructor(private httpclient: HttpClient) {
     }
     login(value: object): Observable<string> {
-        sessionStorage.setItem('isConnected', 'true');
         return this.httpclient.post<string>('http://localhost:8080/login', value);
     }
     register(value: object): Observable<any> {
