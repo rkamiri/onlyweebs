@@ -23,6 +23,10 @@
 hs_err_pid*
 
 /target
+/target/
+/.idea
+/.idea/
 /src/main/resources/application.properties
 /.idea/workspace.xml
 /target/classes/application.properties
+csid-web-repository-base.iml
