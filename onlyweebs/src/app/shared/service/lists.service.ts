@@ -1,8 +1,8 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
-import {Anime} from '../shared/model/anime';
-import {Lists} from '../shared/model/lists';
+import {Anime} from '../model/anime';
+import {Lists} from '../model/lists';
 
 @Injectable({
     providedIn: 'root'

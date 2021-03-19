@@ -14,6 +14,9 @@ import {AnimeListComponent} from './anime-list/anime-list.component';
 import {AnimeListResolver} from './anime-list/anime.list.resolver';
 import {AccountResolver} from './account/account.resolver';
 import {ListsResolver} from './lists/lists.resolver';
+import {OnelistComponent} from './onelist/onelist.component';
+import {OneListResolver} from './onelist/onelist.resolver';
+import {ListContentResolver} from './onelist/listcontent.resolver';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -35,6 +38,13 @@ const routes: Routes = [
         path: 'lists', component: ListsComponent,
         resolve: {
             allLists: ListsResolver
+        }
+    },
+    {
+        path: 'lists/:id', component: OnelistComponent,
+        resolve: {
+            list: OneListResolver,
+            listContent: ListContentResolver
         }
     },
     {path: 'login', component: SigninComponent},

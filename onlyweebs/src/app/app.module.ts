@@ -20,6 +20,8 @@ import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 import {HttpRequestInterceptor} from './HttpRequestInterceptor';
 import { AnimeListComponent } from './anime-list/anime-list.component';
 import {SharedModule} from './shared/shared.module';
+import { OnelistComponent } from './onelist/onelist.component';
+import { CreateListComponent } from './create-list/create-list.component';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import {SharedModule} from './shared/shared.module';
     FooterComponent,
     RegisterComponent,
     AccountComponent,
-    AnimeListComponent
+    AnimeListComponent,
+    OnelistComponent,
+    CreateListComponent
   ],
     imports: [
         BrowserModule,
